@@ -240,10 +240,33 @@ p {
 				&:last-child { display: block; }
 			}
 		}
-		
-		> footer nav > ul li {
-			display: none;
-			&:first-child { display: block; }
+
+		> main {
+			.social {
+				a {
+					margin-left: 15px;
+				}
+			}
 		}
+		
+		> footer {
+			nav > ul li {
+				display: none;
+				&:first-child { display: block; }
+			}
+		}
+	}
+
+	h1 {
+		font-size: 34px;
+		letter-spacing: 2px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 16px
 	}
 }
