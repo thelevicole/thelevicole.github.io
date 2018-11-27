@@ -1,2 +1,0 @@
-# thelevicole
-GitHub Pages site.
