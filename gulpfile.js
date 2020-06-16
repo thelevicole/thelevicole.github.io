@@ -55,5 +55,12 @@ gulp.task('stylesheets', function() {
         .pipe( gulp.dest( paths.output.stylesheets ) );
 });
 
+gulp.task('watch', function() {
+
+	gulp.watch(paths.input.stylesheets, ['stylesheets']);
+	gulp.watch(paths.input.javascripts, ['javascripts']);
+
+});
+
 // Gulp default process
 gulp.task('default', ['stylesheets', 'javascripts']);
